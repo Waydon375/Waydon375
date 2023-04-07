@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Waydon Saal</h1>
 <h3 align="center">A passionate Full stack developer from South Africa</h3>
-<a><img align="right"src="https://za.pinterest.com/pin/567523990538356835 alt="coding" width="400"/></a>
+<a><img align="right"src="https://za.pinterest.com/pin/567523990538356835 alt="coding" width="40px" height="40px"/></a>
 
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=waydon375&label=Profile%20views&color=0e75b6&style=flat" alt="waydon375" /> </p>
@@ -26,4 +26,4 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=waydon375&show_icons=true&locale=en" alt="waydon375" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=waydon375&" alt="waydon375" /></p>
-<a><img align="left" src="https://tenor.com/view/simpson-homer-gif-26093408" width="400"alt="coding"/></a>
+<a><img align="left" src="https://tenor.com/view/simpson-homer-gif-26093408" width="40px" height="40px" alt="coding"/></a>
