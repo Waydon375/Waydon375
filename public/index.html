@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebPortfolio_0.2</title>
+    <link rel="stylesheet" href="Web_portfolio.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/360_F_406919447_kAcC5gdh1rpYlVxwMfHtUTGf24PUYSq8-removebg-preview.png" >
+        </a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello It's Me</h3>
+            <h1>Waydon Saal</h1>
+            <h3>And I'm a <span>Frontend Developer</span></h3>
+            <p> I'm in training to become a proper Frontend Developer.
+            </p>
+            <div class="social-media">
+                <a href="https://www.instagram.com/wayd0n/?igshid=YmJhNjkzNzY%3D"><i class='bx bxl-instagram-alt bx-tada' ></i></a>
+                <a href="https://github.com/Waydon375/Waydon375"><i class='bx bxl-github bx-tada' ></i></a>
+                <a href=""><i class='bx bxl-twitter bx-tada' ></i></a>
+                <a href=""><i class='bx bxl-linkedin bx-tada' ></i></a>
+            </div>
+            <a href="cv (1).pdf" class="btn">Download CV</a>
+            
+        </div>
+        <div class="home-img">
+            <img src="images/IMG-20230217-WA0009.jpg">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/WhatsApp_Image_2023-04-16_at_10.17.47-removebg-preview.png">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <P> I am a hard working person willing to learn
+                I am currently using HTML, CSS and JavaScript.
+                I am dabbling a bit into the Back-end and i'm still learning more about it.
+                My hobbies include playing soccer and i am a musician. I am in my churches band as their main drummer.
+            </P>
+            
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span>
+        </h2>
+        <div class="container">
+            <div class="container_progressbars">
+                <div class="progressbar">
+                    <svg class="progressbar__svg">
+                      <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-html shadow-html"> </circle>
+                    </svg>
+                    <span class="progressbar__text shadow-html">HTML</span>
+                  </div>
+                  <div class="progressbar">
+                    <svg class="progressbar__svg">
+                      <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-css shadow-css"> </circle>
+                    </svg>
+                    <span class="progressbar__text shadow-css">CSS</span>
+                  </div>
+                  <div class="progressbar">
+                    <svg class="progressbar__svg">
+                      <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-js shadow-js"> </circle>
+                    </svg>
+                    <span class="progressbar__text shadow-js">JavaScript</span>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+     <h2 class="heading">Contact <span>Me!</span></h2>
+        <form class="contact-form">
+            <div class="input-box">
+                <input type="text" id="fullname"  name = "name" placeholder="Full Name">
+                <input type="email" id="email"  name = "email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type=" number" id="number" name ="number" placeholder="Mobile number">
+                <input type="text" id="subject" name="subject" placeholder="Email subject">
+                </div>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="Submit" value="Send Message" class="btn">
+        </form>
+    </section>
+<footer class="footer">
+    <div class="footer-text">
+        <p>2023 by Waydon</p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt bx-fade-up'></i></a>
+    </div>
+</footer>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script src="Web_portfolio.js"></script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</body>
+
+
+</html>

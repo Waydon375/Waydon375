@@ -1,0 +1,56 @@
+body {
+margin: 0;
+padding: 15px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+min-width:400px;
+
+
+
+}
+input{
+    width:100%;
+ border-color:#5f9341;
+ padding-left: 10px;
+ padding-right: 15px;
+ box-sizing: border-box;
+ border: 1px solid #5f9341;
+
+}
+button{
+font-size: medium;
+font-weight: bold;
+font-style: normal;
+background-color:#5f9341;
+color: white;
+border-radius: none;
+margin-top: 5px;
+border: 1px solid #5f9341;
+width: fit-content;
+height: 35px;
+
+}
+#delete-btn{
+font-size: medium;
+font-weight: bold;
+font-style: normal;
+background-color:white;
+color:#5f9341;
+border-radius: none;
+margin-top: 5px;
+border: 1px solid #5f9341;
+width: fit-content;
+height: 35px;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+li{
+    margin-top:  5px;
+}
+
+ li a{
+    color:#5f9341 ;
+}
